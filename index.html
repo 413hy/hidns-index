@@ -53,10 +53,15 @@
         }
         .expandable-content {
             display: none;
-            padding: 10px;
+            padding: 3px;
             background-color: rgba(255, 255, 255, 0.2);
             border-radius: 5px;
             margin-top: 10px;
+            line-height: 1.2;
+        }
+        .expandable-content p {
+            margin: 3px 0; /* 减小段落的上下外边距 */
+            font-size: 1.2rem; /* 稍微减小字体大小 */
         }
         .expandable-content a {
             text-decoration: none;
@@ -95,8 +100,8 @@
         <p>这是我的个人主页，欢迎访问我的<a href="https://github.com/413hy" target="_blank">GitHub</a>了解更多关于我的信息。</p>
     </div>
 
-    <div class="expandable" onclick="toggleContent('blog')">我的博客</div>
-    <div class="expandable-content" id="blog">
+    <div class="expandable" onclick="toggleContent('contact')">我的博客</div>
+    <div class="expandable-content" id="contact">
         <p>欢迎参观我的<a href="https://yuhe.nyc.mn" target="_blank">个人博客</a></p>
     </div>
 
