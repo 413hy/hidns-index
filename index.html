@@ -105,6 +105,8 @@
         <p>如果你想与我联系，可以通过<a href="https://t.me/Yuuheu" target="_blank">Telegram</a>联系我。</p>
     </div>
 
+    
+<!-- 原内容省略（樱花） -->
     <!-- 看板娘部分 -->
     <script src="https://fastly.jsdelivr.net/npm/live2d-widgets@0/autoload.js"></script>
     <script>
@@ -146,17 +148,16 @@
             }
         }
 
-        // 检测用户设备类型（手机端或电脑端）
         var isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
-
-        // 根据设备类型设置背景图片
         if (isMobile) {
-            // 手机端使用 https://api.maho.cc/random-img/pc.php
             document.body.style.backgroundImage = "url('https://yhedesk.dpdns.org/nz_002webp')";
         } else {
-            // 电脑端使用 https://www.dmoe.cc/random.php
             document.body.style.backgroundImage = "url('https://www.dmoe.cc/random.php')";
         }
     </script>
+
+    <!-- 🌸 添加樱花飘落效果 -->
+    <script src="https://cdn.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js"></script>
+
 </body>
 </html>
